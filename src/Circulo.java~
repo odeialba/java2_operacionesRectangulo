@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Circulo {
+
+	public static void main(String args[]) {
+
+
+		double radio, result;
+		OperacionesCirculo operaciones = new OperacionesCirculo();
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.print("\nIntroduce el radio de un circulo: ");
+		radio = sc.nextInt();
+		operaciones.setRadio(radio);
+
+		
+		
+		result = operaciones.getRadio(area);
+		System.out.println("\nEl area del circulo es: " + result);
+		result = operaciones.circunferencia();
+		System.out.println("\nLa circunferencia del circulo es: " + result);
+	
+		System.out.println("\n\nEGUN ONA IZAN!!\n");
+	}
+}
